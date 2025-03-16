@@ -1186,28 +1186,6 @@ html {
   text-decoration-line: underline;
 }
 
-.mockup-code {
-  position: relative;
-  overflow-x: auto;
-  overflow-y: hidden;
-  min-width: 18rem;
-  border-radius: var(--rounded-box, 0.5rem);
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity, 1)));
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: var(--fallback-bc,oklch(var(--bc)/0.8));
-  direction: ltr;
-}
-
-.mockup-code pre[data-prefix]:before {
-  content: attr(data-prefix);
-  display: inline-block;
-  text-align: right;
-  width: 2rem;
-  opacity: 0.5;
-}
-
 @keyframes button-pop {
   0% {
     transform: scale(var(--btn-focus-scale, 0.98));
@@ -1283,28 +1261,6 @@ input:focus-visible {
   .link:disabled {
   pointer-events: none;
   opacity: 0.4;
-}
-
-.mockup-code:before {
-  content: "";
-  margin-bottom: 1rem;
-  display: block;
-  height: 0.75rem;
-  width: 0.75rem;
-  border-radius: 9999px;
-  opacity: 0.3;
-  box-shadow: 1.4em 0,
-        2.8em 0,
-        4.2em 0;
-}
-
-.mockup-code pre {
-  padding-inline-end: 1.25rem;
-}
-
-.mockup-code pre:before {
-  content: "";
-  margin-right: 2ch;
 }
 
 @keyframes indeterminate-progress {
@@ -1537,16 +1493,6 @@ textarea:focus-visible {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.5rem;
-}
-
-.text-success {
-  --tw-text-opacity: 1;
-  color: var(--fallback-su,oklch(var(--su)/var(--tw-text-opacity, 1)));
-}
-
-.text-warning {
-  --tw-text-opacity: 1;
-  color: var(--fallback-wa,oklch(var(--wa)/var(--tw-text-opacity, 1)));
 }
 
 .opacity-0 {
